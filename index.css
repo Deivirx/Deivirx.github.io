@@ -145,7 +145,7 @@ p {
 
 h2 {
     font-size: 65px;
-    line-height: 70px;
+    line-height: 65px;
     color: rgb(54, 255, 255);
     margin-bottom: 35px;
 }
@@ -263,7 +263,7 @@ h2 {
     color:white;
 }
 
-@media(max-width:1100px) {
+@media(max-width:1250px) {
     
     .menu {
         padding:20px;
@@ -292,8 +292,7 @@ h2 {
     }
 
     .header {
-        min-height: 0vh;
-        
+        min-height: 0vh;    
     }
 
     .header-img h1 {
@@ -313,12 +312,11 @@ h2 {
     }
 
     .agua-title {
-        padding: 0;
-    
+        padding: 0;  
     }
 
     h2 {
-        font-size: 65px;
+        font-size: 55px;
         line-height: 55px;
     }
 
@@ -335,18 +333,19 @@ h2 {
     }
 
     .agua-imag-0 img {
-        width: 100%;
+        width: 120%;
         order: 2;
     }
     .agua-imag-1 img {
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 75%;
+        margin-left: 22px;
+        width: 90%;
         order: 2;
     }
     .agua-imag-2 img {
         margin-top: -25px;
-        width: 75%;
+        width: 90%;
         order: 2;
     }
     .agua-text {

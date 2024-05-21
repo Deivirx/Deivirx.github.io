@@ -180,19 +180,22 @@ h2 {
 .agua-imag-2 img {
     width: 635px;
     margin: 0 -250px;
+    margin-bottom: 55px;
 }
 
 .agua-text {
-    width: 50%;
+    width: 90%;
     text-align: left;
     margin-left: 50px;
+
 }
 
 .agua-text h3 {
     color: cyan;
     font-size: 55px;
+    margin-top: -85px;
     margin-bottom: 35px; 
-    margin-left: -10px;
+    margin-left: -5px;
 }
 
 .agua-txt {
@@ -327,6 +330,12 @@ h2 {
         margin-bottom: 0;
     }
 
+    .agua-2 {
+        margin-top: 45px;
+        flex-direction:column;
+        margin-bottom: 0;
+    }
+
     .agua-imag-0 img {
         width: 100%;
         order: 2;
@@ -343,12 +352,14 @@ h2 {
         order: 2;
     }
     .agua-text {
+        margin-top: 100px;
         width: 100%;
         text-align: center;
         margin-left: 0px;
         }
 
     .footer{
+        margin-top: 3px;
         padding: 30px;
     }
 

@@ -264,7 +264,7 @@ h2 {
     color:white;
 }
 
-@media(max-width:999px) {
+@media(max-width:900px) {
     
     .menu {
         padding:20px;
@@ -305,7 +305,7 @@ h2 {
     }
 
     .header-img img {
-        width: 600px;
+        width: 450px;
         
       
     }
@@ -314,7 +314,7 @@ h2 {
         margin: 0;
         text-align: center;
         padding: 30px;
-        width: 600px;
+        width: 450px;
     }
 
     .agua-title {
@@ -373,5 +373,6 @@ h2 {
     .campo{
         margin: 0 0 15px 0;
         width: 100%;
-    }   
+    }
+       
 }

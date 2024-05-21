@@ -233,7 +233,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-.campo {
+.campo, .camcpo {
     padding: 20px 10px;
     background-color: rgb(71, 68, 68);
     outline: none;
@@ -242,7 +242,7 @@ h2 {
     border: 0;
 }
 
-.campo::placeholder {
+.campo::placeholder, .camcpo::placeholder {
     color: white;
 }
 
@@ -264,7 +264,7 @@ h2 {
     color:white;
 }
 
-@media(max-width:900px) {
+@media(max-width:845px) {
     
     .menu {
         padding:20px;
@@ -298,23 +298,19 @@ h2 {
     }
 
     .header-img h1 {
-        font-size: 70px;
-        line-height: 80px;
-      
-        
+        font-size: 75px;
+        line-height: 80px;   
     }
 
     .header-img img {
-        width: 450px;
-        
-      
+        width: 350px;      
     }
 
     .header-txt {
         margin: 0;
         text-align: center;
         padding: 30px;
-        width: 450px;
+        width: 350px;
     }
 
     .agua-title {
@@ -363,16 +359,24 @@ h2 {
 
     .footer{
         margin-top: 3px;
-        padding: 30px;
+        padding: 10px;
     }
-
+    .footer-content h2{
+        font-size: 50px;
+    }
+    
     .form-group {
         flex-direction: column;
     }
 
     .campo{
         margin: 0 0 15px 0;
-        width: 100%;
+        width: 80%;
+    }
+
+    .camcpo{
+        width: 80%;
+        margin-left: 33px;
     }
        
 }

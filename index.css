@@ -114,10 +114,10 @@ body {
 }
 
 .header-txt {
-    margin: 65px 0 0px;
+    margin: 55px 0 0px;
     background-color: blue;
     padding: 75px 75px;
-    width: 850px;
+    width: 1058px;
     margin-bottom: 50px;
 }
 
@@ -139,7 +139,8 @@ p {
 }
 
 .agua-title{
-    padding: 0 20px;
+    padding: 0 40px;
+
 }
 
 h2 {
@@ -186,7 +187,7 @@ h2 {
 .agua-text {
     width: 90%;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 75px;
 
 }
 
@@ -202,6 +203,7 @@ h2 {
     padding: 0 0 75px 0;
     text-align: center;
     margin: 0 auto;
+    width: 91%;
 
 }
 
@@ -317,6 +319,7 @@ h2 {
 
     .agua-title {
         padding: 0;
+    
     }
 
     h2 {

@@ -99,6 +99,7 @@ body {
 
 .header-img {
     text-align: center;
+
 }
 
 .header-img h1 {
@@ -117,9 +118,10 @@ body {
     margin: 55px 0 0px;
     background-color: blue;
     padding: 75px 75px;
-    width: 1058px;
-    margin-bottom: 50px;
+    width: 1150px;
+    margin-bottom: 115px;
 }
+
 
 .header-txt h3 {
     font-size: 20px;
@@ -147,17 +149,50 @@ h2 {
     font-size: 65px;
     line-height: 65px;
     color: rgb(54, 255, 255);
-    margin-bottom: 35px;
+    margin-bottom: 125px;
 }
 
 .agua-content {
     margin-top: 65px;
 }
 
-.agua-imag-0 img {
-    width: 1200px;
-    padding: 70px;
-    margin: 0 -250px;
+.slider {
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: duracion 20s infinite;
+    animation-timing-function: ease-in;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes duracion{
+    0% {margin-left:0;}
+    20% {margin-left:0;}
+
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
 }
 
 .agua-1 {
@@ -193,7 +228,7 @@ h2 {
 .agua-text h3 {
     color: cyan;
     font-size: 55px;
-    margin-top: -85px;
+    margin-top: 65px;
     margin-bottom: 35px; 
     margin-left: -5px;
 }
